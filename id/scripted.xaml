@@ -7,19 +7,23 @@
     <!--Tab Names-->
     <system:String x:Key="resourcesTab">Sumber Daya</system:String>
     <system:String x:Key="miscTab">Lain-Lain</system:String>
-	<system:String x:Key="switchesTab">Switch</system:String>
+    <system:String x:Key="settingsTab">Pengaturan Script</system:String>
 
     <!--Resources-->
     <system:String x:Key="resourcePath">Lokasi sumber daya:</system:String>
     <system:String x:Key="resourcePathDir">Plugins\Assets\Textured\Resources</system:String>
     <system:String x:Key="openFolder">Buka Folder</system:String>
     <system:String x:Key="reloadList">Muat Ulang Daftar</system:String>
-    <system:String x:Key="reloadPack">Muat Ulang Paket</system:String>
-
+    <system:String x:Key="reloadScript">Muat Ulang Script</system:String>
 
     <!--Other settings-->
     <system:String x:Key="firstNote">Not Pertama</system:String>
     <system:String x:Key="lastNote">Not Terakhir</system:String>
     <system:String x:Key="noteScreenTime">Waktu Layar Not</system:String>
-    <system:String x:Key="blackNotesAbove">Buat Not Hitam di Atas (lebih lama!)</system:String>
+
+    <system:String x:Key="profile">Profil</system:String>
+    <system:String x:Key="save">Simpan</system:String>
+    <system:String x:Key="delete">Hapus</system:String>
+    <system:String x:Key="defaults">Pengaturan Awal</system:String>
+
 </ResourceDictionary>

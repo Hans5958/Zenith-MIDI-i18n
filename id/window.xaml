@@ -9,8 +9,8 @@
 	Indonesian/Bahasa Indonesia
 	Translated by Hans5958
 	
-	Last updated: 25/09/2019
-	Works with 1.6b
+	Last updated: 25/01/2020
+	Works with 2.0
 	
 	-->
 
@@ -18,15 +18,19 @@
     
     <!--Tab Names-->
     <system:String x:Key="midiTab">Muat MIDI</system:String>
-    <system:String x:Key="pluginsTab">Plugin</system:String>
-    <system:String x:Key="pluginSettingsTab">Pengaturan Plugin</system:String>
-    <system:String x:Key="previewTab">Pratayang</system:String>
+    <system:String x:Key="modulesTab">Modul</system:String>
+    <system:String x:Key="moduleSettingsTab">Pengaturan Modul</system:String>
     <system:String x:Key="renderTab">Render</system:String>
+
+    <!--Auto Update-->
+    <system:String x:Key="updateDownloading">Mengunduh pembaruan...</system:String>
+    <system:String x:Key="updateReady">Pembaruan terpasang!</system:String>
+    <system:String x:Key="clickToRestart">Klik disini untuk memulai ulang Zenith</system:String>
 
     <!--Main Page-->
     <system:String x:Key="load">Muat</system:String>
     <system:String x:Key="unload">Lepas</system:String>
-    <system:String x:Key="browse">Telusuri</system:String>
+    <system:String x:Key="browse">Jelajahi</system:String>
     <system:String x:Key="maxTrackBuffSize">Ukuran maksimum buffer trek (bytes)</system:String>
     <system:String x:Key="width">Lebar</system:String>
     <system:String x:Key="height">Tinggi</system:String>
@@ -36,19 +40,22 @@
     <system:String x:Key="superRes">SSAA</system:String>
     <system:String x:Key="superResWarning">Menambahkan SSAA dapat menghaluskan gambar secara signifikan tetapi membutuhkan kinerja lebih.</system:String>
     <system:String x:Key="language">Bahasa</system:String>
-    
+    <system:String x:Key="renderResolution">Resolusi Render</system:String>
+    <system:String x:Key="previewOptions">Pengaturan Pratayang</system:String>
+    <system:String x:Key="renderOptions">Pengaturan Render</system:String>
+
     <!--Plugins Page-->
     <system:String x:Key="reload">Muat Ulang</system:String>
-    <system:String x:Key="pluginWarning">Perhatian: Hanya gunakan plugin dari sumber terpercaya. Virus dapat disembunyikan di dalam sebuah plugin</system:String>
-    
-	<!--Preview Page-->
 	<system:String x:Key="startPreview">Mulai Pratayang</system:String>
     <system:String x:Key="stop">Berhenti</system:String>
+    <!--<system:String x:Key="pluginWarning">Perhatian: Hanya gunakan plugin dari sumber terpercaya. Virus dapat disembunyikan di dalam sebuah plugin</system:String>-->
+    
+	<!--Preview Page-->
     <system:String x:Key="vsync">V-Sync Diaktifkan</system:String>
     <system:String x:Key="tempo">Pengali Tempo</system:String>
     <system:String x:Key="pauseHint">Klik kanan slider atau tekan spasi untuk jeda/lanjut</system:String>
     <system:String x:Key="paused">Jeda Pratayang</system:String>
-    <system:String x:Key="forceRender">Paksa Render Ulang di Setiap Frame</system:String>
+    <!--<system:String x:Key="forceRender">Paksa Render Ulang di Setiap Frame</system:String>-->
 
     <!--Render Page-->
     <system:String x:Key="savePath">Folder Simpanan</system:String>
@@ -56,7 +63,7 @@
     <system:String x:Key="renderMask">Render Mask Transparansi</system:String>
     <system:String x:Key="bitrate">Bitrate</system:String>
     <system:String x:Key="crfHint">FFMPEG crf: 0 = sebagus mungkin, 51 = seburuk mungkin</system:String>
-    <system:String x:Key="delatStart">Waktu tunda (detik)</system:String>
+    <system:String x:Key="delatStart">Waktu Tunda (detik)</system:String>
     <system:String x:Key="ffmpegDebug">debug ffmpeg</system:String>
     <system:String x:Key="startRender">Mulai Render</system:String>
     <system:String x:Key="ifUploading">Jika ingin mengunggah video, mohon sertakan kredit program ini.</system:String>
@@ -76,4 +83,10 @@
 
     <!--NEW 1.6-->
     <system:String x:Key="pauseHintNew">Tekan spasi untuk jeda/lanjut, tekan enter pada jendela pratayang untuk layar penuh</system:String>
+
+    <!--Palette picker-->
+    <system:String x:Key="palettes_reload">Muat Ulang</system:String>
+    <system:String x:Key="palettes_randomise">Acak urutan warna</system:String>
+    <system:String x:Key="palettes_openFolder">Buka Folder Palet</system:String>
+
 </ResourceDictionary>

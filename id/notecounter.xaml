@@ -16,5 +16,10 @@
     <system:String x:Key="font">Font</system:String>
 
     <system:String x:Key="reload">Muat Ulang</system:String>
-    <system:String x:Key="noteTextPath">Lokasi: Plugins/Assets/NoteCounter/Templates</system:String>
+    <system:String x:Key="openFolder">Open Folder</system:String>
+
+    <system:String x:Key="savePath">Tempat Penyimpanan</system:String>
+    <system:String x:Key="browse">Jelajahi</system:String>
+    <system:String x:Key="saveToFile">Simpan Data Frame ke File .csv</system:String>
+    <system:String x:Key="formatString">Format CSV</system:String>
 </ResourceDictionary>
