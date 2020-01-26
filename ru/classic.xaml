@@ -3,11 +3,6 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:MSDNSample"
     xmlns:system="clr-namespace:System;assembly=mscorlib">
-
-    <!--Palette picker-->
-    <system:String x:Key="palettes_reload">Перезагрузить</system:String>
-    <system:String x:Key="palettes_imageNote">Изображение должно быть шириной в 16 (или 32 для градиентов) пикселей и любой высотой в формате PNG. Поддерживается прозрачность.</system:String>
-    <system:String x:Key="palettes_randomise">Рандомизировать порядок цветов</system:String>
     
     <!--Other settings-->
     <system:String x:Key="firstNote">Первая нота</system:String>
