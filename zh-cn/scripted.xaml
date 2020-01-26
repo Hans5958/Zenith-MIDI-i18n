@@ -5,21 +5,25 @@
     xmlns:system="clr-namespace:System;assembly=mscorlib">
 
     <!--Tab Names-->
-    <system:String x:Key="resourcesTab">资源</system:String>
+    <system:String x:Key="resourcesTab">资源包</system:String>
     <system:String x:Key="miscTab">杂项</system:String>
-    <system:String x:Key="switchesTab">开关</system:String>
+    <system:String x:Key="settingsTab">脚本设置</system:String>
 
     <!--Resources-->
     <system:String x:Key="resourcePath">资源包路径:</system:String>
     <system:String x:Key="resourcePathDir">Plugins\Assets\Textured\Resources</system:String>
     <system:String x:Key="openFolder">打开文件夹</system:String>
     <system:String x:Key="reloadList">重新加载列表</system:String>
-    <system:String x:Key="reloadPack">重新加载资源包</system:String>
-
+    <system:String x:Key="reloadScript">重新加载脚本</system:String>
 
     <!--Other settings-->
     <system:String x:Key="firstNote">第一个音符</system:String>
     <system:String x:Key="lastNote">最后一个音符</system:String>
     <system:String x:Key="noteScreenTime">音符速度(数值越大越慢)</system:String>
-    <system:String x:Key="blackNotesAbove">显示黑色的音符轮廓(渲染得更慢)</system:String>
+
+    <system:String x:Key="profile">配置</system:String>
+    <system:String x:Key="save">保存</system:String>
+    <system:String x:Key="delete">删除</system:String>
+    <system:String x:Key="defaults">默认配置</system:String>
+
 </ResourceDictionary>
