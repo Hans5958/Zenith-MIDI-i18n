@@ -27,9 +27,9 @@
     <system:String x:Key="velocityStrength">Сила нажатия клавиш в зависимости от громкости</system:String>
     <system:String x:Key="keyboardClip">Ноты не проходят за клавиатуру</system:String>
     <system:String x:Key="sameWidthNotes">Ноты одинаковой ширины</system:String>
-    <system:String x:Key="onNoteHit">По достижению нотой клавиши:</system:String>
-    <system:String x:Key="changeSize">Изменить размер</system:String>
-    <system:String x:Key="changeTint">Изменить оттенок</system:String>
+    <system:String x:Key="onNoteHit">По достижению клавиши, нота:</system:String>
+    <system:String x:Key="changeSize">Изменит размер</system:String>
+    <system:String x:Key="changeTint">Изменит оттенок</system:String>
     <system:String x:Key="showKeyboard">Показать клавиатуру</system:String>
 
     <!--Camera-->
@@ -62,7 +62,7 @@
     <!--Aura-->
     <system:String x:Key="imageHint">Картинка должна быть квадратной и желательно с прозрачностью.</system:String>
     <system:String x:Key="auraEnabled">Аура включена</system:String>
-    <system:String x:Key="reload">Перезагрузить</system:String>
+    <system:String x:Key="reload">Обновить список</system:String>
     <system:String x:Key="auraStrength">Сила ауры:</system:String>
-    <system:String x:Key="openAuraFolder">Открыть папку ауры</system:String>
+    <system:String x:Key="openAuraFolder">Открыть папку с аурами</system:String>
 </ResourceDictionary>

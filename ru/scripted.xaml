@@ -13,8 +13,8 @@
     <system:String x:Key="resourcePath">Пакеты ресурсов расположены:</system:String>
     <system:String x:Key="resourcePathDir">Plugins\Assets\Textured\Resources</system:String>
     <system:String x:Key="openFolder">Открыть папку</system:String>
-    <system:String x:Key="reloadList">Перезагрузить список</system:String>
-    <system:String x:Key="reloadScript">Перезагрузить скрипт</system:String>
+    <system:String x:Key="reloadList">Обновить список</system:String>
+    <system:String x:Key="reloadScript">Перекомпилировать скрипт</system:String>
 
     <!--Other settings-->
     <system:String x:Key="firstNote">Первая нота</system:String>

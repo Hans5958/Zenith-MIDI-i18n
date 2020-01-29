@@ -7,7 +7,7 @@
     <system:String x:Key="LanguageName">Русский</system:String>
     
     <!--Tab Names-->
-    <system:String x:Key="generalTab">Общие</system:String>
+    <system:String x:Key="generalTab">Общее</system:String>
     <system:String x:Key="modulesTab">Модули</system:String>
     <system:String x:Key="moduleSettingsTab">Настройки модуля</system:String>
     <system:String x:Key="renderTab">Настройки рендера</system:String>
@@ -15,7 +15,7 @@
     <!--Auto Update-->
     <system:String x:Key="updateDownloading">Скачивание обновления...</system:String>
     <system:String x:Key="updateReady">Обновление установлено!</system:String>
-    <system:String x:Key="clickToRestart">Нажмите здесь, чтобы перезапустить Zenith.</system:String>
+    <system:String x:Key="clickToRestart">Кликните здесь, чтобы перезапустить Zenith.</system:String>
 
     <!--Main Page-->
     <system:String x:Key="load">Загрузить</system:String>
@@ -24,7 +24,7 @@
     <system:String x:Key="height">Высота</system:String>
     <system:String x:Key="browse">Путь к файлу...</system:String>
     <system:String x:Key="fps">FPS</system:String>
-    <system:String x:Key="presets">Предустановки</system:String>
+    <system:String x:Key="presets">Пресеты</system:String>
     <system:String x:Key="zenithRenderWarning">Предупреждение: Картинка в окне предпросмотра вырисовывается в вышеуказанном разрешении,
     а затем масштабируется в соответствии с размером окна.</system:String>
     <system:String x:Key="superRes">SSAA (Супер-разрешение)</system:String>
@@ -36,17 +36,17 @@
     
     <!--Plugins Page-->
     <system:String x:Key="reload">Обновить список</system:String>
-    <system:String x:Key="startPreview">Запустить предпросмотр</system:String>
+    <system:String x:Key="startPreview">Запустить превью</system:String>
     <system:String x:Key="stop">Остановить</system:String>
 
     <!--Preview Page-->
-    <system:String x:Key="vsync">Включена V-Sync</system:String>
+    <system:String x:Key="vsync">Включить V-Sync</system:String>
     <system:String x:Key="tempo">Множитель темпа</system:String>
     <system:String x:Key="pauseHint">Кликните правой кнопкой мыши или Пробел, чтобы остановить или снять с паузы</system:String>
-    <system:String x:Key="paused">Превью изначально на паузе</system:String>
+    <system:String x:Key="paused">Пауза</system:String>
 
     <!--Render Page-->
-    <system:String x:Key="savePath">Сохранить в...</system:String>
+    <system:String x:Key="savePath">Сохранить...</system:String>
     <system:String x:Key="includeAudio">Добавить аудио</system:String>
     <system:String x:Key="renderMask">Дополнительно рендерить альфа маску</system:String>
     <system:String x:Key="bitrate">Битрейт</system:String>
@@ -57,9 +57,10 @@
     <system:String x:Key="ifUploading">Если вы собираетесь загрузить видео в интернет, упомяните, что видео было создано с использованием Zenith.</system:String>
     
     <!--NEW 1.5-->
-    <system:String x:Key="realtimePlayback">Воспроизведение в режиме реального времени</system:String>
+    <system:String x:Key="realtimePlayback">Воспроизведение в реальном времени</system:String>
     <system:String x:Key="disableKDMAPI">Выключить KDMAPI</system:String> 
     <system:String x:Key="enableKDMAPI">Включить KDMAPI</system:String>
+    <system:String x:Key="noteSize">Размер ноты</system:String>
     <system:String x:Key="tickBased">Тиков (как в UMP)</system:String>
     <system:String x:Key="timeBased">Времени (как в PFA)</system:String>
     <system:String x:Key="ignoreColorEvents">Игнорировать события изменения цвета</system:String>
@@ -69,7 +70,7 @@
     <system:String x:Key="pauseHintNew">Нажмите ПРОБЕЛ для паузы, ВВОД для входа в полноэкранный режим</system:String>
 
     <!--Palette picker-->
-    <system:String x:Key="palettes_reload">Перезагрузить</system:String>
-    <system:String x:Key="palettes_randomise">Рандомизировать порядок цветов</system:String>
+    <system:String x:Key="palettes_reload">Обновить список</system:String>
+    <system:String x:Key="palettes_randomise">Случайный порядок</system:String>
     <system:String x:Key="palettes_openFolder">Открыть папку</system:String>
 </ResourceDictionary>

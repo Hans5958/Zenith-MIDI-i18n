@@ -15,10 +15,10 @@
     <system:String x:Key="fontSize">Размер шрифта</system:String>
     <system:String x:Key="font">Шрифт</system:String>
 
-    <system:String x:Key="reload">Перезагрузить</system:String>
+    <system:String x:Key="reload">Обновить список</system:String>
     <system:String x:Key="openFolder">Открыть папку</system:String>
 
-    <system:String x:Key="savePath">Сохранить в...</system:String>
+    <system:String x:Key="savePath">Сохранить...</system:String>
     <system:String x:Key="browse">Путь к файлу...</system:String>
     <system:String x:Key="saveToFile">Сохранить данные кадра в .csv файл</system:String>
     <system:String x:Key="formatString">Формат CSV-строки</system:String>
