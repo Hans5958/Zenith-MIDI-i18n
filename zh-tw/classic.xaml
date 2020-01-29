@@ -4,11 +4,6 @@
     xmlns:local="using:MSDNSample"
     xmlns:system="clr-namespace:System;assembly=mscorlib">
 
-    <!--Palette picker-->
-    <system:String x:Key="palettes_reload">重新讀取</system:String>
-    <system:String x:Key="palettes_imageNote">圖片至少需要16(或32位元)像素寬png檔案, 和任何高度.支援透明.</system:String>
-	<system:String x:Key="palettes_randomise">隨機顏色順序</system:String>
-
     <!--Other settings-->
     <system:String x:Key="firstNote">第一個音符</system:String>
     <system:String x:Key="lastNote">最後一個音符</system:String>
@@ -18,5 +13,6 @@
     <system:String x:Key="save">儲存</system:String>
     <system:String x:Key="loadSaved">載入已儲存</system:String>
     <system:String x:Key="setDefaults">預設</system:String>
+	<system:String x:Key="blackNotesAbove">上面畫黑色音符 (警告: 很慢!!</system:String>
 
 </ResourceDictionary>

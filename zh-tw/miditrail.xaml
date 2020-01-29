@@ -4,13 +4,9 @@
     xmlns:local="using:MSDNSample"
     xmlns:system="clr-namespace:System;assembly=mscorlib">
 
-    <!--Palette picker-->
-    <system:String x:Key="palettes_reload">重新讀取</system:String>
-    <system:String x:Key="palettes_imageNote">圖片至少需要16(或32位元)像素寬png檔案, 和任何高度.支援透明.</system:String>
-
     <!--Shared-->
     <system:String x:Key="delete">刪除</system:String>
-    <system:String x:Key="saveNew">現在儲存</system:String>
+    <system:String x:Key="saveNew">儲存新的設置</system:String>
     <system:String x:Key="loadDefault">預設</system:String>
 
     <!--Tab Names-->
@@ -55,6 +51,7 @@
 	
 	<system:String x:Key="viewTilt">相機傾斜</system:String> <!--NEW-->
     <system:String x:Key="viewTurn">相機轉向</system:String> <!--NEW-->
+	<system:String x:Key="viewSpin">相機旋轉</system:String>
     <system:String x:Key="offsetX">X</system:String> <!--NEW-->
     <system:String x:Key="offsetY">Y</system:String> <!--NEW-->
     <system:String x:Key="offsetZ">Z</system:String> <!--NEW-->
@@ -66,6 +63,5 @@
     <system:String x:Key="auraEnabled">音符光環啟動</system:String>
     <system:String x:Key="reload">重新讀取</system:String>
     <system:String x:Key="auraStrength">強度:</system:String>
-    <system:String x:Key="auraLocation">圖片位置於: Plugins\Assets\MidiTrail\Aura</system:String>
-	<system:String x:Key="palettes_randomise">隨機顏色順序</system:String>
+    <system:String x:Key="openAuraFolder">打開光環資料夾</system:String>
 </ResourceDictionary>
