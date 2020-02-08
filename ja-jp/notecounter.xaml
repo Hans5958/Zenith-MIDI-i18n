@@ -16,5 +16,14 @@
     <system:String x:Key="font">フォント</system:String>
 
     <system:String x:Key="reload">リロード</system:String>
-    <system:String x:Key="noteTextPath">場所: Plugins/Assets/NoteCounter/Templates</system:String>
+    <system:String x:Key="openFolder">フォルダを開く</system:String>
+
+    <system:String x:Key="thousandsSeparator">1000の区切り</system:String>
+    <system:String x:Key="commas">コンマ</system:String>
+    <system:String x:Key="nothing">なし</system:String>
+
+    <system:String x:Key="savePath">保存先</system:String>
+    <system:String x:Key="browse">参照</system:String>
+    <system:String x:Key="saveToFile">フレームごとの情報を.csvファイルに保存</system:String>
+    <system:String x:Key="formatString">CSV行フォーマット</system:String>
 </ResourceDictionary>
