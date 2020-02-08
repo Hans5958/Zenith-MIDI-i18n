@@ -40,7 +40,7 @@
     <system:String x:Key="farPreset">远</system:String>
     <system:String x:Key="mediumPreset">中等</system:String>
     <system:String x:Key="closerPreset">更近</system:String>
-    <system:String x:Key="closePreset">关闭</system:String>
+    <system:String x:Key="closePreset">靠近</system:String>
 
     <system:String x:Key="FOV">视角大小(FOV)</system:String>
     <system:String x:Key="viewAngle">倾斜角度</system:String>
