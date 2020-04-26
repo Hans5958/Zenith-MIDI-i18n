@@ -7,30 +7,34 @@
     <system:String x:Key="LanguageName">繁體中文</system:String>
 
     <!--Tab Names-->
-    <system:String x:Key="midiTab">載入MIDI</system:String>
-    <system:String x:Key="pluginsTab">插件</system:String>
-    <system:String x:Key="pluginSettingsTab">插件設置</system:String>
-    <system:String x:Key="previewTab">預覽</system:String>
-    <system:String x:Key="renderTab">輸出</system:String>
-    
+    <system:String x:Key="generalTab">一般</system:String>
+    <system:String x:Key="modulesTab">模式</system:String>
+    <system:String x:Key="moduleSettingsTab">模式設定</system:String>
+    <system:String x:Key="renderTab">输出</system:String>
+	
+	<!--Auto Update-->
+    <system:String x:Key="updateDownloading">下載更新中...</system:String>
+    <system:String x:Key="updateReady">更新已安裝!</system:String>
+    <system:String x:Key="clickToRestart">點擊以重新開啟Zenith</system:String>
     
     <!--Main Page-->
     <system:String x:Key="load">讀取</system:String>
     <system:String x:Key="unload">關閉</system:String>
-    <system:String x:Key="browse">瀏覽</system:String>
-    <system:String x:Key="maxTrackBuffSize">最大音軌緩衝區大小 (bytes)</system:String>
     <system:String x:Key="width">寬度</system:String>
     <system:String x:Key="height">高度</system:String>
+	<system:String x:Key="browse">瀏覽</system:String>
     <system:String x:Key="fps">幀數</system:String>
-    <system:String x:Key="presets">設定檔</system:String>
+    <system:String x:Key="presets">設定解析度</system:String>
     <system:String x:Key="zenithRenderWarning">注意: Zenith預覽輸出在解析度上面, 然後最小化到視窗大小</system:String>
     <system:String x:Key="superRes">SSAA</system:String>
     <system:String x:Key="superResWarning">提高超級樣本反鋸齒(SSAA)可以讓畫面看起來更加平滑，但會耗費大量效能</system:String>
     <system:String x:Key="language">語言</system:String>
+	<system:String x:Key="renderResolution">輸出解析度</system:String>
+    <system:String x:Key="previewOptions">預覽選項</system:String>
+    <system:String x:Key="renderOptions">輸出選項</system:String>
     
     <!--Plugins Page-->
     <system:String x:Key="reload">重新讀取</system:String>
-    <system:String x:Key="pluginWarning">請使用來自信任來源的插件，否則可能會遭到病毒危害</system:String>
     <system:String x:Key="startPreview">開始預覽</system:String>
     <system:String x:Key="stop">停止</system:String>
 
@@ -39,7 +43,6 @@
     <system:String x:Key="tempo">節奏倍率</system:String>
     <system:String x:Key="pauseHint">右建來點擊滑塊或按空白鍵來切換暫停</system:String>
     <system:String x:Key="paused">暫停預覽</system:String>
-    <system:String x:Key="forceRender">強制重新輸出每個幀</system:String>
 
     <!--Render Page-->
     <system:String x:Key="savePath">儲存路徑</system:String>
@@ -53,12 +56,9 @@
     <system:String x:Key="ifUploading">如果要上傳影片到網站, 請在影片資訊註明由Zenith輸出</system:String>
 	
 	<!--NEW-->
-    <system:String x:Key="realtimePlayback">實際播放</system:String>
-    <system:String x:Key="useOmniMidi">OmniMIDI 開啟 (更多記憶體使用率)</system:String>
-    <system:String x:Key="muteAudio">靜音聲音</system:String>
+    <system:String x:Key="realtimePlayback">實時播放</system:String>
     <system:String x:Key="disableKDMAPI">關閉 KDMAPI</system:String>
     <system:String x:Key="enableKDMAPI">開啟 KDMAPI</system:String>
-    <system:String x:Key="settingsTab">設定</system:String>
     <system:String x:Key="noteSize">音符大小</system:String>
     <system:String x:Key="tickBased">基於時刻</system:String>
     <system:String x:Key="timeBased">基於時間</system:String>
@@ -67,4 +67,9 @@
 	
 	 <!--NEW 1.6-->
     <system:String x:Key="pauseHintNew">按空白鍵來切換暫停, 按 enter 到預覽視窗至全螢幕</system:String>
+	
+	<!--Palette picker-->
+    <system:String x:Key="palettes_reload">重新讀取</system:String>
+    <system:String x:Key="palettes_randomise">隨機顏色順序</system:String>
+    <system:String x:Key="palettes_openFolder">打開颜色資料夾</system:String>
 </ResourceDictionary>

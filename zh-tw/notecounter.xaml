@@ -16,5 +16,10 @@
     <system:String x:Key="font">字體</system:String>
 
     <system:String x:Key="reload">重新讀取</system:String>
-    <system:String x:Key="noteTextPath">位置: Plugins/Assets/NoteCounter/Templates</system:String>
+    <system:String x:Key="openFolder">打開資料夾</system:String>
+
+    <system:String x:Key="savePath">儲存位置</system:String>
+    <system:String x:Key="browse">瀏覽</system:String>
+    <system:String x:Key="saveToFile">儲存.csv資料</system:String>
+    <system:String x:Key="formatString">CSV 格式</system:String>
 </ResourceDictionary>

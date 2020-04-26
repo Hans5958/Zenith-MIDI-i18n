@@ -7,18 +7,23 @@
     <!--Tab Names-->
     <system:String x:Key="resourcesTab">Ресурсы</system:String>
     <system:String x:Key="miscTab">Разное</system:String>
-    <system:String x:Key="switchesTab">Переключатели</system:String>
+    <system:String x:Key="settingsTab">Настройки скрипта</system:String>
 
     <!--Resources-->
     <system:String x:Key="resourcePath">Пакеты ресурсов расположены:</system:String>
     <system:String x:Key="resourcePathDir">Plugins\Assets\Textured\Resources</system:String>
-    <system:String x:Key="openFolder">Открыть папку...</system:String>
+    <system:String x:Key="openFolder">Открыть папку</system:String>
     <system:String x:Key="reloadList">Обновить список</system:String>
-    <system:String x:Key="reloadPack">Перезагрузить пакет</system:String>
+    <system:String x:Key="reloadScript">Перекомпилировать скрипт</system:String>
 
     <!--Other settings-->
     <system:String x:Key="firstNote">Первая нота</system:String>
     <system:String x:Key="lastNote">Последняя нота</system:String>
     <system:String x:Key="noteScreenTime">Время нахождения ноты в кадре</system:String>
-    <system:String x:Key="blackNotesAbove">Чёрные клавиши поверх белых (Замедляет рендер!)</system:String>
+
+    <system:String x:Key="profile">Профиль</system:String>
+    <system:String x:Key="save">Сохранить</system:String>
+    <system:String x:Key="delete">Удалить</system:String>
+    <system:String x:Key="defaults">По умолчанию</system:String>
+
 </ResourceDictionary>

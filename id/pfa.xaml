@@ -4,11 +4,6 @@
     xmlns:local="using:MSDNSample"
     xmlns:system="clr-namespace:System;assembly=mscorlib">
 
-    <!--Palette picker-->
-	<system:String x:Key="palettes_reload">Muat Ulang</system:String>
-    <system:String x:Key="palettes_imageNote">Gambar harus sebuah .png dengan lebar 16 (32 untuk gradien) piksel dan tinggi yang bebas. Transparansi didukung.</system:String>
-    <system:String x:Key="palettes_randomise">Acak urutan warna</system:String>
-
     <!--Other settings-->
     <system:String x:Key="firstNote">Not Pertama</system:String>
     <system:String x:Key="lastNote">Not Terakhir</system:String>
@@ -20,7 +15,7 @@
     <system:String x:Key="setDefaults">Pengaturan Awal</system:String>
 
     <system:String x:Key="middleCSquare">Kotak C Tengah</system:String>
-    <system:String x:Key="blackNotesAbove">Buat not hitam di atas (lebih lama!)</system:String>
+    <system:String x:Key="blackNotesAbove">Buat Not Hitam di Atas (lebih lama!)</system:String>
     <system:String x:Key="topColor">Warna Felt</system:String>
     <system:String x:Key="colorRed">Merah</system:String>
     <system:String x:Key="colorGreen">Hijau</system:String>

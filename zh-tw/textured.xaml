@@ -10,7 +10,7 @@
     <system:String x:Key="palettes_randomise">隨機顏色順序</system:String>
 
     <!--Tab Names-->
-    <system:String x:Key="resourcesTab">材質</system:String>
+    <system:String x:Key="resourcesTab">材質包</system:String>
     <system:String x:Key="miscTab">其它</system:String>
 	<system:String x:Key="switchesTab">切換</system:String>
 
@@ -24,6 +24,6 @@
     <system:String x:Key="firstNote">第一個音符</system:String>
     <system:String x:Key="lastNote">最後一個音符</system:String>
     <system:String x:Key="pianoHeight">鋼琴高度 %</system:String>
-    <system:String x:Key="noteScreenTime">音符螢幕時間</system:String>
+    <system:String x:Key="noteScreenTime">音符速度</system:String>
     <system:String x:Key="blackNotesAbove">上面畫黑色音符 (警告: 很慢!!)</system:String>
 </ResourceDictionary>

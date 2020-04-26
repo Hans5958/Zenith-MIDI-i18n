@@ -7,18 +7,23 @@
     <!--Tab Names-->
     <system:String x:Key="resourcesTab">Gói tài nguyên tự thiết kế</system:String>
     <system:String x:Key="miscTab">Các thiết lập khác</system:String>
-    <system:String x:Key="switchesTab">Các phiên bản con</system:String>
+    <system:String x:Key="settingsTab">Thiết lậo script</system:String>
 
     <!--Resources-->
     <system:String x:Key="resourcePath">Địa chỉ gói tài nguyên:</system:String>
     <system:String x:Key="resourcePathDir">Plugins\Assets\Textured\Resources</system:String>
     <system:String x:Key="openFolder">Mở thư mục</system:String>
     <system:String x:Key="reloadList">Làm mới danh sách</system:String>
-    <system:String x:Key="reloadPack">Làm mới gói tài nguyên</system:String>
+    <system:String x:Key="reloadScript">Làm mới script</system:String>
 
     <!--Other settings-->
     <system:String x:Key="firstNote">Phím đầu tiên</system:String>
     <system:String x:Key="lastNote">Phím cuối cùng</system:String>
     <system:String x:Key="noteScreenTime">Tốc độ nốt nhạc (không nên nhầm lẫn với tốc độ phát lại)</system:String>
-    <system:String x:Key="blackNotesAbove">Kết xuất đầy đủ các nốt nhạc (làm quá trình kết xuất chậm hơn)</system:String>
+
+    <system:String x:Key="profile">Hồ sơ</system:String>
+    <system:String x:Key="save">Lưu</system:String>
+    <system:String x:Key="delete">Xóa hồ sơ</system:String>
+    <system:String x:Key="defaults">Đặt lại về mặc định</system:String>
+
 </ResourceDictionary>

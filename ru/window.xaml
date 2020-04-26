@@ -1,5 +1,5 @@
 ﻿<ResourceDictionary
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:MSDNSample"
     xmlns:system="clr-namespace:System;assembly=mscorlib">
@@ -7,42 +7,46 @@
     <system:String x:Key="LanguageName">Русский</system:String>
     
     <!--Tab Names-->
-    <system:String x:Key="midiTab">Загрузить MIDI</system:String>
-    <system:String x:Key="pluginsTab">Плагины</system:String>
-    <system:String x:Key="pluginSettingsTab">Настройки плагина</system:String>
-    <system:String x:Key="previewTab">Настройки предпросмотра</system:String>
+    <system:String x:Key="generalTab">Общее</system:String>
+    <system:String x:Key="modulesTab">Модули</system:String>
+    <system:String x:Key="moduleSettingsTab">Настройки модуля</system:String>
     <system:String x:Key="renderTab">Настройки рендера</system:String>
+
+    <!--Auto Update-->
+    <system:String x:Key="updateDownloading">Скачивание обновления...</system:String>
+    <system:String x:Key="updateReady">Обновление установлено!</system:String>
+    <system:String x:Key="clickToRestart">Кликните здесь, чтобы перезапустить Zenith.</system:String>
 
     <!--Main Page-->
     <system:String x:Key="load">Загрузить</system:String>
     <system:String x:Key="unload">Выгрузить</system:String>
-    <system:String x:Key="browse">Путь к файлу...</system:String>
-    <system:String x:Key="maxTrackBuffSize">Максимальный размер буфера трека (в байтах)</system:String>
     <system:String x:Key="width">Ширина</system:String>
     <system:String x:Key="height">Высота</system:String>
+    <system:String x:Key="browse">Путь к файлу...</system:String>
     <system:String x:Key="fps">FPS</system:String>
-    <system:String x:Key="presets">Предустановки</system:String>
+    <system:String x:Key="presets">Пресеты</system:String>
     <system:String x:Key="zenithRenderWarning">Предупреждение: Картинка в окне предпросмотра вырисовывается в вышеуказанном разрешении,
     а затем масштабируется в соответствии с размером окна.</system:String>
     <system:String x:Key="superRes">SSAA (Супер-разрешение)</system:String>
     <system:String x:Key="superResWarning">Увеличение SSAA сильно увеличивает как "гладкость" пикселей, так и время прорисовки одного кадра</system:String>
     <system:String x:Key="language">Язык</system:String>
+    <system:String x:Key="renderResolution">Разрешение рендера</system:String>
+    <system:String x:Key="previewOptions">Настройки превью</system:String>
+    <system:String x:Key="renderOptions">Настройки рендера</system:String>
     
     <!--Plugins Page-->
     <system:String x:Key="reload">Обновить список</system:String>
-    <system:String x:Key="pluginWarning">ПРЕДУПРЕЖДЕНИЕ: Используйте плагины только из проверенных источников. Внутри плагина возможно пронести вирус!</system:String>
-    <system:String x:Key="startPreview">Запустить предпросмотр</system:String>
+    <system:String x:Key="startPreview">Запустить превью</system:String>
     <system:String x:Key="stop">Остановить</system:String>
 
     <!--Preview Page-->
-    <system:String x:Key="vsync">Включена V-Sync</system:String>
+    <system:String x:Key="vsync">Включить V-Sync</system:String>
     <system:String x:Key="tempo">Множитель темпа</system:String>
     <system:String x:Key="pauseHint">Кликните правой кнопкой мыши или Пробел, чтобы остановить или снять с паузы</system:String>
-    <system:String x:Key="paused">Превью изначально на паузе</system:String>
-    <system:String x:Key="forceRender">Форсировать перерисовку каждого кадра</system:String>
+    <system:String x:Key="paused">Пауза</system:String>
 
     <!--Render Page-->
-    <system:String x:Key="savePath">Сохранить в...</system:String>
+    <system:String x:Key="savePath">Сохранить...</system:String>
     <system:String x:Key="includeAudio">Добавить аудио</system:String>
     <system:String x:Key="renderMask">Дополнительно рендерить альфа маску</system:String>
     <system:String x:Key="bitrate">Битрейт</system:String>
@@ -53,18 +57,20 @@
     <system:String x:Key="ifUploading">Если вы собираетесь загрузить видео в интернет, упомяните, что видео было создано с использованием Zenith.</system:String>
     
     <!--NEW 1.5-->
-    <system:String x:Key="realtimePlayback">Воспроизведение в режиме реального времени</system:String>
-    <system:String x:Key="useOmniMidi">Включить OmniMIDI (Использует больше памяти)</system:String>
-    <system:String x:Key="muteAudio">Отключить аудио</system:String>
-    <system:String x:Key="disableKDMAPI">Выключить KDMAPI</system:String>
+    <system:String x:Key="realtimePlayback">Воспроизведение в реальном времени</system:String>
+    <system:String x:Key="disableKDMAPI">Выключить KDMAPI</system:String> 
     <system:String x:Key="enableKDMAPI">Включить KDMAPI</system:String>
-    <system:String x:Key="settingsTab">Настройки</system:String>
-    <system:String x:Key="noteSize">Размер ноты на основе:</system:String>
+    <system:String x:Key="noteSize">Размер ноты</system:String>
     <system:String x:Key="tickBased">Тиков (как в UMP)</system:String>
     <system:String x:Key="timeBased">Времени (как в PFA)</system:String>
     <system:String x:Key="ignoreColorEvents">Игнорировать события изменения цвета</system:String>
     <system:String x:Key="useBackgroundImage">Использовать фон</system:String>
 
     <!--NEW 1.6-->
-    <system:String x:Key="pauseHintNew">Нажмите пробел для паузы, ввод для входа в полноэкранный режим</system:String>
+    <system:String x:Key="pauseHintNew">Нажмите ПРОБЕЛ для паузы, ВВОД для входа в полноэкранный режим</system:String>
+
+    <!--Palette picker-->
+    <system:String x:Key="palettes_reload">Обновить список</system:String>
+    <system:String x:Key="palettes_randomise">Случайный порядок</system:String>
+    <system:String x:Key="palettes_openFolder">Открыть папку</system:String>
 </ResourceDictionary>

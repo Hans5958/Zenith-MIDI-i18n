@@ -4,11 +4,6 @@
     xmlns:local="using:MSDNSample"
     xmlns:system="clr-namespace:System;assembly=mscorlib">
 
-    <!--Palette picker-->
-    <system:String x:Key="palettes_reload">Обновить список</system:String>
-    <system:String x:Key="palettes_imageNote">Изображение должно быть шириной в 16 (или 32 для градиентов) пикселей и любой высотой в формате PNG. Поддерживается прозрачность.</system:String>
-    <system:String x:Key="palettes_randomise">Перемешать порядок цветов</system:String>
-
     <!--Shared-->
     <system:String x:Key="delete">Удалить</system:String>
     <system:String x:Key="saveNew">Сохранить новый</system:String>
@@ -32,9 +27,9 @@
     <system:String x:Key="velocityStrength">Сила нажатия клавиш в зависимости от громкости</system:String>
     <system:String x:Key="keyboardClip">Ноты не проходят за клавиатуру</system:String>
     <system:String x:Key="sameWidthNotes">Ноты одинаковой ширины</system:String>
-    <system:String x:Key="onNoteHit">По достижению нотой клавиши:</system:String>
-    <system:String x:Key="changeSize">Изменить размер</system:String>
-    <system:String x:Key="changeTint">Изменить оттенок</system:String>
+    <system:String x:Key="onNoteHit">По достижению клавиши, нота:</system:String>
+    <system:String x:Key="changeSize">Изменит размер</system:String>
+    <system:String x:Key="changeTint">Изменит оттенок</system:String>
     <system:String x:Key="showKeyboard">Показать клавиатуру</system:String>
 
     <!--Camera-->
@@ -46,8 +41,6 @@
     <system:String x:Key="mediumPreset">Средне</system:String>
     <system:String x:Key="closerPreset">Ближе</system:String>
     <system:String x:Key="closePreset">Близко</system:String>
-    <system:String x:Key="topPreset">Сверху</system:String>
-    <system:String x:Key="perspectivePreset">Перспективный</system:String>
 
     <system:String x:Key="FOV">Угол обзора</system:String>
     <system:String x:Key="viewAngle">Вертикальный угол</system:String>
@@ -56,17 +49,20 @@
     <system:String x:Key="camOffsets">Сдвиги камеры</system:String>
     <system:String x:Key="horizontal">По горизонтали</system:String>
     <system:String x:Key="vertical">По вертикали</system:String>
-    
+
     <system:String x:Key="viewTilt">Наклон камеры</system:String>
     <system:String x:Key="viewTurn">Поворот камеры</system:String>
+    <system:String x:Key="viewSpin">Вращение камеры</system:String>
     <system:String x:Key="offsetX">X</system:String>
     <system:String x:Key="offsetY">Y</system:String>
     <system:String x:Key="offsetZ">Z</system:String>
+    <system:String x:Key="topPreset">Сверху</system:String>
+    <system:String x:Key="perspectivePreset">Перспективный</system:String> 
 
     <!--Aura-->
     <system:String x:Key="imageHint">Картинка должна быть квадратной и желательно с прозрачностью.</system:String>
     <system:String x:Key="auraEnabled">Аура включена</system:String>
-    <system:String x:Key="reload">Перезагрузить</system:String>
+    <system:String x:Key="reload">Обновить список</system:String>
     <system:String x:Key="auraStrength">Сила ауры:</system:String>
-    <system:String x:Key="auraLocation">Изображения расположены в: Plugins\Assets\MidiTrail\Aura</system:String>
+    <system:String x:Key="openAuraFolder">Открыть папку с аурами</system:String>
 </ResourceDictionary>

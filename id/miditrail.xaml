@@ -4,11 +4,6 @@
     xmlns:local="using:MSDNSample"
     xmlns:system="clr-namespace:System;assembly=mscorlib">
 
-    <!--Palette picker-->
-    <system:String x:Key="palettes_reload">Muat Ulang</system:String>
-    <system:String x:Key="palettes_imageNote">Gambar harus sebuah .png dengan lebar 16 (32 untuk gradien) piksel dan tinggi yang bebas. Transparansi didukung.</system:String>
-    <system:String x:Key="palettes_randomise">Acak urutan warna</system:String>
-
     <!--Shared-->
     <system:String x:Key="delete">Hapus</system:String>
     <system:String x:Key="saveNew">Simpan Baru</system:String>
@@ -18,7 +13,6 @@
     <system:String x:Key="visualsTab">Visual</system:String>
     <system:String x:Key="cameraTab">Kamera</system:String>
     <system:String x:Key="auraTab">Aura</system:String>
-
 
     <!--Visuals-->
     <system:String x:Key="firstNote">Not Pertama</system:String>
@@ -37,7 +31,6 @@
     <system:String x:Key="changeTint">Ubah Warna</system:String>
     <system:String x:Key="showKeyboard">Tunjukkan Keyboard</system:String>
 
-
     <!--Camera-->
     <system:String x:Key="speedWarning">Perhatian: Plugin ini dapat menggunakan RAM dan CPU lebih dikarenakan lebih lamanya not di layar. Lebih banyak not di layar, lebih lama waktu rendernya!</system:String>
 
@@ -55,14 +48,6 @@
     <system:String x:Key="horizontal">Horisontal</system:String>
     <system:String x:Key="vertical">Vertikal</system:String>
     
-    <!--Aura-->
-    <system:String x:Key="imageHint">Gambar harus berupa png berbentuk kotak dan hanya channel Alpha yang akan digunakan</system:String>
-    <system:String x:Key="auraEnabled">Aura Not Diaktifkan</system:String>
-    <system:String x:Key="reload">Muat Ulang</system:String>
-    <system:String x:Key="auraStrength">Kuat:</system:String>
-    <system:String x:Key="auraLocation">Gambar diletakan di: Plugins\Assets\MidiTrail\Aura</system:String>
-	
-	<!--NEW!-->
 	<system:String x:Key="viewTilt">Kemiringan Camera</system:String>
     <system:String x:Key="viewTurn">Rotasi Camera</system:String>
     <system:String x:Key="offsetX">X</system:String>
@@ -70,4 +55,12 @@
     <system:String x:Key="offsetZ">Z</system:String>
     <system:String x:Key="topPreset">Atas</system:String>
     <system:String x:Key="perspectivePreset">Perspektif</system:String>
+
+    <!--Aura-->
+    <system:String x:Key="imageHint">Gambar harus berupa .png berbentuk kotak dan hanya channel Alpha yang akan digunakan</system:String>
+    <system:String x:Key="auraEnabled">Aura Not Diaktifkan</system:String>
+    <system:String x:Key="reload">Muat Ulang</system:String>
+    <system:String x:Key="auraStrength">Kuat:</system:String>
+    <system:String x:Key="auraLocation">Gambar diletakan di: Plugins\Assets\MidiTrail\Aura</system:String>
+
 </ResourceDictionary>
