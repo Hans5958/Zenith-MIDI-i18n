@@ -4,6 +4,12 @@
     xmlns:local="using:MSDNSample"
     xmlns:system="clr-namespace:System;assembly=mscorlib">
 
+    <!-- Tab Names -->
+    <system:String x:Key="Render">レンダー</system:String>
+    <system:String x:Key="SaveCSV">データ保存</system:String>
+    <system:String x:Key="Padding">パディング</system:String>
+
+    <!-- Render Tab -->
     <system:String x:Key="alignments">配置</system:String>
     <system:String x:Key="alTopLeft">左上</system:String>
     <system:String x:Key="alTopRight">右上</system:String>
@@ -16,5 +22,27 @@
     <system:String x:Key="font">フォント</system:String>
 
     <system:String x:Key="reload">リロード</system:String>
-    <system:String x:Key="noteTextPath">場所: Plugins/Assets/NoteCounter/Templates</system:String>
+    <system:String x:Key="openFolder">フォルダを開く</system:String>
+
+    <system:String x:Key="thousandsSeparator">1000の区切り</system:String>
+    <system:String x:Key="commas">コンマ</system:String>
+    <system:String x:Key="nothing">なし</system:String>
+    <system:String x:Key="ZeroPadding">ゼロパディング</system:String>
+
+    <!-- Save Data Tab -->
+    <system:String x:Key="savePath">保存先</system:String>
+    <system:String x:Key="browse">参照</system:String>
+    <system:String x:Key="saveToFile">フレームごとの情報を.csvファイルに保存</system:String>
+    <system:String x:Key="formatString">CSV行フォーマット</system:String>
+
+    <!-- Padding Tab -->
+    <system:String x:Key="BPMint">BPM</system:String>
+    <system:String x:Key="BPMfrac">(小数)</system:String>
+    <system:String x:Key="NoteCount">ノート</system:String>
+    <system:String x:Key="Polyphony">Polyphony</system:String>
+    <system:String x:Key="NPS">NPS</system:String>
+    <system:String x:Key="Ticks">Tick</system:String>
+    <system:String x:Key="Bars">小節</system:String>
+    <system:String x:Key="Frames">フレーム</system:String>
+    <system:String x:Key="SetDefault">デフォルト設定</system:String>
 </ResourceDictionary>

@@ -4,11 +4,6 @@
     xmlns:local="using:MSDNSample"
     xmlns:system="clr-namespace:System;assembly=mscorlib">
 
-    <!--Palette picker-->
-    <system:String x:Key="palettes_reload">リロード</system:String>
-    <system:String x:Key="palettes_imageNote">画像は、幅16px(グラデーション使用は32px)と任意の高さのPNGでなくてはなりません。透明使えます。</system:String>
-    <system:String x:Key="palettes_randomise">色の順番をシャッフル</system:String>
-
     <!--Shared-->
     <system:String x:Key="delete">設定を削除</system:String>
     <system:String x:Key="saveNew">設定を保存</system:String>
@@ -18,7 +13,7 @@
     <system:String x:Key="visualsTab">ビジュアル</system:String>
     <system:String x:Key="cameraTab">カメラ</system:String>
     <system:String x:Key="auraTab">波紋</system:String>
-    <!-- It is ccalled "Ripple" (波紋) in MIDITrail. Translation for "Aura" is "オーラ". -->
+    <!-- If you want direct translation of "Aura", replace all "波紋" with "オーラ". -->
 
 
     <!--Visuals-->
@@ -47,6 +42,7 @@
     <system:String x:Key="closerPreset">やや短い</system:String>
     <system:String x:Key="closePreset">短い</system:String>
 
+    <system:String x:Key="verticalNotes">ノートを鍵盤に対して垂直に</system:String>
     <system:String x:Key="FOV">視野</system:String>
     <system:String x:Key="viewAngle">角度</system:String>
     <system:String x:Key="renderDistF">描画範囲 (前)</system:String>
@@ -58,6 +54,7 @@
     <!-- New in 1.5 -->
     <system:String x:Key="viewTilt">カメラの向き (上下)</system:String>
     <system:String x:Key="viewTurn">カメラの向き (左右)</system:String>
+    <system:String x:Key="viewSpin">カメラの傾き</system:String>
     <system:String x:Key="offsetX">X</system:String>
     <system:String x:Key="offsetY">Y</system:String>
     <system:String x:Key="offsetZ">Z</system:String>
@@ -67,8 +64,7 @@
     <!--Aura-->
     <system:String x:Key="imageHint">画像は幅と高さが同じPNGでなくてはなりません。透明度のみが使用されます。</system:String>
     <system:String x:Key="auraEnabled">波紋を使う</system:String>
-    <!-- Again, replace with "オーラを使う" if you want direct translation of "Aura". -->
     <system:String x:Key="reload">リロード</system:String>
     <system:String x:Key="auraStrength">強さ:</system:String>
-    <system:String x:Key="auraLocation">画像の場所: Plugins\Assets\MIDITrail\Aura</system:String>
+    <system:String x:Key="openAuraFolder">波紋フォルダを開く</system:String>
 </ResourceDictionary>
