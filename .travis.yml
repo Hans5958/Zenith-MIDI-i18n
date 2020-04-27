@@ -1,4 +1,4 @@
-language: python # It doesn't work if I don't give a language, even though I won't use any of this stuff.
+language: bash # TIL that if you don't want to use language, use "minimal" or "bash".
 branches: master
 
 install: true
