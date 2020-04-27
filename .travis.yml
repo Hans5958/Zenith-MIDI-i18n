@@ -1,20 +1,15 @@
 language: python # It doesn't work if I don't give a language, even though I won't use any of this stuff.
 branches: master
 
-before_install: 
-  - |
+install: true
+ 
+script: 
+    - |
       if ! git diff --name-only $TRAVIS_COMMIT_RANGE | grep -qE '(\.xaml$)'
       then
         echo "No xaml file changed. Aborting!"
         exit
       fi
-
-install: 
-    - pip install click
- 
-script: true
-
-before_deploy:
     - rm -rf en
     - zip pack.zip */ -r   
     - export TRAVIS_TAG=${TRAVIS_TAG:-$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)}
