@@ -10,15 +10,20 @@
     <system:String x:Key="settingsTab">Configuracion del script</system:String>
 
     <!--Resources-->
-    <system:String x:Key="resourcePath">Direccion a los packetes de recursos:</system:String>
+    <system:String x:Key="resourcePath">Ubicacion de los paquetes de recursos:</system:String>
     <system:String x:Key="resourcePathDir">Plugins\Assets\Textured\Resources</system:String>
     <system:String x:Key="openFolder">Abrir carpeta</system:String>
-    <system:String x:Key="reloadList">Recargar Lista</system:String>
-    <system:String x:Key="reloadPack">Recargar Pack</system:String>
+    <system:String x:Key="reloadList">Recargar lista</system:String>
+    <system:String x:Key="reloadScript">Recargar script</system:String>
 
     <!--Other settings-->
     <system:String x:Key="firstNote">Primera nota</system:String>
     <system:String x:Key="lastNote">Ultima nota</system:String>
     <system:String x:Key="noteScreenTime">Tiempo de notas en pantalla</system:String>
-    <system:String x:Key="blackNotesAbove">Dibujar notas negras encima (Aviso: MAS LENTO!)</system:String>
+
+    <system:String x:Key="profile">Perfil</system:String>
+    <system:String x:Key="save">Guardar</system:String>
+    <system:String x:Key="delete">Borrar</system:String>
+    <system:String x:Key="defaults">Configuraciones predeterminadas</system:String>
+
 </ResourceDictionary>

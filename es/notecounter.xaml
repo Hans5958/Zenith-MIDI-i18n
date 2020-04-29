@@ -5,17 +5,25 @@
     xmlns:system="clr-namespace:System;assembly=mscorlib">
 
     <system:String x:Key="alignments">Alineaciones</system:String>
-    <system:String x:Key="alTopLeft">Arriba a la izquierda</system:String>
-    <system:String x:Key="alTopRight">Arriba a la derecha</system:String>
-    <system:String x:Key="alBottomLeft">Abajo a la izquierda</system:String>
-    <system:String x:Key="alBottomRight">Abajo a la derecha</system:String>
-    <system:String x:Key="alTopSpread">Propagacion superior</system:String>
-    <system:String x:Key="alBottomSpread">Propagacion inferior</system:String>
+    <system:String x:Key="alTopLeft">Parte superior izquierda</system:String>
+    <system:String x:Key="alTopRight">Parte superior derecha</system:String>
+    <system:String x:Key="alBottomLeft">Parte inferior izquierda</system:String>
+    <system:String x:Key="alBottomRight">Parte inferior derecha</system:String>
+    <system:String x:Key="alTopSpread">Medio superior</system:String>
+    <system:String x:Key="alBottomSpread">Medio inferior</system:String>
 
     <system:String x:Key="fontSize">Tamaño de fuente</system:String>
     <system:String x:Key="font">Fuente</system:String>
 
     <system:String x:Key="reload">Recargar</system:String>
-    <system:String x:Key="noteTextPath">Locacion: Plugins/Assets/NoteCounter/Templates</system:String>
+    <system:String x:Key="openFolder">Abir carpeta</system:String>
 
+    <system:String x:Key="thousandsSeparator">Separador de miles</system:String>
+    <system:String x:Key="commas">Comas</system:String>
+    <system:String x:Key="nothing">Nada</system:String>
+
+    <system:String x:Key="savePath">Ubicacion de guardado</system:String>
+    <system:String x:Key="browse">Buscar</system:String>
+    <system:String x:Key="saveToFile">Guardar data de marco en un archivo .csv</system:String>
+    <system:String x:Key="formatString">Formato de linea CSV (Valores separados por comas)</system:String>
 </ResourceDictionary>

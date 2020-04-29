@@ -5,65 +5,71 @@
     xmlns:system="clr-namespace:System;assembly=mscorlib">
 
     <system:String x:Key="LanguageName">Español</system:String>
-
-    <!--Tab Names-->
-    <system:String x:Key="midiTab">Cargar MIDI</system:String>
-    <system:String x:Key="pluginsTab">Complementos</system:String>
-    <system:String x:Key="pluginSettingsTab">Configuracion de Plugin</system:String>
-    <system:String x:Key="previewTab">Muestra</system:String>
-    <system:String x:Key="renderTab">Render</system:String>
     
+    <!--Tab Names-->
+    <system:String x:Key="generalTab">General</system:String>
+    <system:String x:Key="modulesTab">Modulos</system:String>
+    <system:String x:Key="moduleSettingsTab">Configuracion de modulos</system:String>
+    <system:String x:Key="renderTab">Render</system:String>
+
+    <!--Auto Update-->
+    <system:String x:Key="updateDownloading">Descargando actualizacion...</system:String>
+    <system:String x:Key="updateReady">Actualizacion lista!</system:String>
+    <system:String x:Key="clickToRestart">Click aqui para reiniciar Zenith.</system:String>
+
     <!--Main Page-->
-    <system:String x:Key="load">Cargar</system:String>
-    <system:String x:Key="unload">Descargar</system:String>
-    <system:String x:Key="browse">Buscar</system:String>
-    <system:String x:Key="maxTrackBuffSize">Tamaño máximo del buffer de pista (en bytes)</system:String>
+    <system:String x:Key="load">Cargar midi...</system:String>
+    <system:String x:Key="unload">Descargar midi</system:String>
     <system:String x:Key="width">Ancho</system:String>
     <system:String x:Key="height">Alto</system:String>
+    <system:String x:Key="browse">Buscar</system:String>
     <system:String x:Key="fps">FPS</system:String>
-    <system:String x:Key="presets">Presets</system:String>
-    <system:String x:Key="zenithRenderWarning">Aviso: La vista previa de Zenith se renderiza en la resolución anterior, luego se reduce al tamaño de la ventana</system:String>
+    <system:String x:Key="presets">Preajustes</system:String>
+    <system:String x:Key="zenithRenderWarning">Aviso: La vista previa de Zenith se renderiza en la resolucion de arriba, y despues se reduce al tamaño de la ventana.</system:String>
     <system:String x:Key="superRes">SSAA</system:String>
-    <system:String x:Key="superResWarning">Incrementando el SSAA Puede mejorar la calidad de los pixeles, pero requiere mejor desempeño</system:String>
-    <system:String x:Key="language">Idioma</system:String>
+    <system:String x:Key="superResWarning">Incrementando el SSAA puede aumentar considerablemente la calidad de los pixeles, pero requiere mas rendimiento.</system:String>
+    <system:String x:Key="language">Lenguaje</system:String>
+    <system:String x:Key="renderResolution">Resolucion del render</system:String>
+    <system:String x:Key="previewOptions">Opciones de la vista previa</system:String>
+    <system:String x:Key="renderOptions">Opciones del render</system:String>
     
     <!--Plugins Page-->
     <system:String x:Key="reload">Recargar</system:String>
-    <system:String x:Key="pluginWarning">AVISO: Solo descarga plugins de fuentes conocidas. Es posible esconder un virus dentro de un plugin</system:String>
-    <system:String x:Key="startPreview">Iniciar Vista previa</system:String>
+    <system:String x:Key="startPreview">Iniciar vista previa</system:String>
     <system:String x:Key="stop">Detener</system:String>
 
     <!--Preview Page-->
-    <system:String x:Key="vsync">V-Sync Habilitado</system:String>
-    <system:String x:Key="tempo">Multiplicador de Tempo</system:String>
-    <system:String x:Key="pauseHint">ReloRight Haga click en el control deslizante o presione la barra espaciadora para alternar pausar</system:String>
+    <system:String x:Key="vsync">V-Sync Abilitado</system:String>
+    <system:String x:Key="tempo">Multiplicador del tempo</system:String>
+    <system:String x:Key="pauseHint">Click derecho al control deslizante o presionar la barra espaciadora para pausar/play</system:String>
     <system:String x:Key="paused">Vista previa pausada</system:String>
-    <system:String x:Key="forceRender">Forzar re-render en cada cuadro</system:String>
-	
+
     <!--Render Page-->
-    <system:String x:Key="savePath">Direccion de guardado</system:String>
-    <system:String x:Key="includeAudio">Incluir Audio</system:String>
-    <system:String x:Key="renderMask">Mascara de transparencia de render</system:String>
+    <system:String x:Key="savePath">Ubucacion de guardado</system:String>
+    <system:String x:Key="includeAudio">Incluir audio</system:String>
+    <system:String x:Key="renderMask">Renderizar mascara de transparencia</system:String>
     <system:String x:Key="bitrate">Bitrate</system:String>
-    <system:String x:Key="crfHint">FFMPEG crf: 0 = lossless, 51 = Peor calidad posible</system:String>
-    <system:String x:Key="delatStart">Delay de inicio(segundos)</system:String>
-    <system:String x:Key="ffmpegDebug">ffmpeg debug</system:String>
+    <system:String x:Key="crfHint">FFMPEG crf: 0 = sin perdida de calidad, 51 = peor calidad posible</system:String>
+    <system:String x:Key="delatStart">Retraso de inicio (segundos)</system:String>
+    <system:String x:Key="ffmpegDebug">Debug ffmpeg</system:String>
     <system:String x:Key="startRender">Iniciar Render</system:String>
     <system:String x:Key="ifUploading">Si sube el video en linea, por favor dar credito al programa.</system:String>
-	
-    <!--NEW-->
+    
+    <!--NEW 1.5-->
     <system:String x:Key="realtimePlayback">Reproduccion en tiempo real</system:String>
-    <system:String x:Key="useOmniMidi">OmniMIDI Activado (Mas uso de memoria)</system:String>
-    <system:String x:Key="muteAudio">Silenciar audio</system:String>
-    <system:String x:Key="disableKDMAPI">Inhabilitar KDMAPI</system:String>
-    <system:String x:Key="enableKDMAPI">Habilitar KDMAPI</system:String>
-    <system:String x:Key="settingsTab">Configuracion</system:String>
-    <system:String x:Key="noteSize">Tamaño de nota</system:String>
+    <system:String x:Key="disableKDMAPI">Desactivar KDMAPI</system:String>
+    <system:String x:Key="enableKDMAPI">Activar KDMAPI</system:String>
+    <system:String x:Key="noteSize">Tamaño de notas</system:String>
     <system:String x:Key="tickBased">Basado en tick</system:String>
     <system:String x:Key="timeBased">Basado en tiempo</system:String>
-    <system:String x:Key="ignoreColorEvents">Ignorar eventos de color</system:String>
+    <system:String x:Key="ignoreColorEvents">Ignorar eventos de colores</system:String>
     <system:String x:Key="useBackgroundImage">Usar imagen de fondo</system:String>
-	
-	<!--NEW 1.6-->
-    <system:String x:Key="pauseHintNew">Presiona la barra espaciadora para pausar/play, Presiona enter en la ventana de la vista previa para ver en pantalla completa</system:String>
+
+    <!--NEW 1.6-->
+    <system:String x:Key="pauseHintNew">Precione la barra espaciadora para pausar/play, Presione la tecla enter en la ventana de la vista previa para usar la pantalla completa</system:String>
+
+    <!--Palette picker-->
+    <system:String x:Key="palettes_reload">Recargar</system:String>
+    <system:String x:Key="palettes_randomise">Randomizar orden de colores</system:String>
+    <system:String x:Key="palettes_openFolder">Abrir carpeta de paletas de colores</system:String>
 </ResourceDictionary>
