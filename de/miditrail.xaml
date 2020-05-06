@@ -16,7 +16,7 @@
 
     <!--Tab Names-->
     <system:String x:Key="visualsTab">Visuelles</system:String>
-    <system:String x:Key="cameraTab">Kannera</system:String>
+    <system:String x:Key="cameraTab">Kamera</system:String>
     <system:String x:Key="auraTab">Aura</system:String>
 
 

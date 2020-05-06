@@ -1,0 +1,29 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MSDNSample"
+    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <!--Tab Names-->
+    <system:String x:Key="resourcesTab">Ressourcen</system:String>
+    <system:String x:Key="miscTab">Verschiedenes</system:String>
+    <system:String x:Key="settingsTab">Skript Einstellungen</system:String>
+
+    <!--Resources-->
+    <system:String x:Key="resourcePath">Ressourcenpacket Pfad:</system:String>
+    <system:String x:Key="resourcePathDir">Plugins\Assets\Textured\Resources</system:String>
+    <system:String x:Key="openFolder">Ordner öffnen</system:String>
+    <system:String x:Key="reloadList">Liste neuladen</system:String>
+    <system:String x:Key="reloadScript">Skript neuladen</system:String>
+
+    <!--Other settings-->
+    <system:String x:Key="firstNote">Erste Note</system:String>
+    <system:String x:Key="lastNote">Letzte Note</system:String>
+    <system:String x:Key="noteScreenTime">Noten Bildschirm Anzeige</system:String>
+
+    <system:String x:Key="profile">Profil</system:String>
+    <system:String x:Key="save">Speichern</system:String>
+    <system:String x:Key="delete">Löschen</system:String>
+    <system:String x:Key="defaults">Standarts</system:String>
+
+</ResourceDictionary>

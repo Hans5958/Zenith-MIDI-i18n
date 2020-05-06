@@ -7,25 +7,31 @@
     <system:String x:Key="LanguageName">Deutsch</system:String>
     
     <!--Tab Names-->
-    <system:String x:Key="midiTab">Midi laden</system:String>
-    <system:String x:Key="pluginsTab">Plugins</system:String>
-    <system:String x:Key="pluginSettingsTab">Plugin Einstellungen</system:String>
-    <system:String x:Key="previewTab">Vorschau</system:String>
+    <system:String x:Key="generalTab">Generell</system:String>
+    <system:String x:Key="modulesTab">Module</system:String>
+    <system:String x:Key="moduleSettingsTab">Moduleinstellungen</system:String>
     <system:String x:Key="renderTab">Render</system:String>
+
+    <!--Auto Update-->
+    <system:String x:Key="updateDownloading">Update wird heruntergeladen...</system:String>
+    <system:String x:Key="updateReady">Update installiert!</system:String>
+    <system:String x:Key="clickToRestart">Hier klicken, um Zenith neuzustarten</system:String>
 
     <!--Main Page-->
     <system:String x:Key="load">Laden</system:String>
     <system:String x:Key="unload">Entladen</system:String>
-    <system:String x:Key="browse">Suchen</system:String>
-    <system:String x:Key="maxTrackBuffSize">Maximale Track Puffergröße (Bytes)</system:String>
     <system:String x:Key="width">Breite</system:String>
     <system:String x:Key="height">Höhe</system:String>
+    <system:String x:Key="browse">Suchen</system:String>
     <system:String x:Key="fps">FPS</system:String>
     <system:String x:Key="presets">Voreinstellungen</system:String>
-    <system:String x:Key="zenithRenderWarning">Warnung: Zenith rendert die Vorschau in der Auflösung darüber und wird dann auf die Fenstergröße geschrumpft</system:String>
+    <system:String x:Key="zenithRenderWarning">Warnung: Zenith wird in höherer Auflösung gerendert, dann auf die Fenstergröße geschrumpft</system:String>
     <system:String x:Key="superRes">SSAA</system:String>
-    <system:String x:Key="superResWarning">Erhöhung von SSAA kann die Glätte von den Pixeln ziemlich erhöhen, aber es benötigt dann auch mehr Leistung</system:String>
+    <system:String x:Key="superResWarning">SSAA erhöhen, kann die Glätte zwischen Pixeln drastisch erhöhen, benötigt aber auch mehr Leistung.</system:String>
     <system:String x:Key="language">Sprache</system:String>
+    <system:String x:Key="renderResolution">Render Auflösung</system:String>
+    <system:String x:Key="previewOptions">Vorschau Optionen</system:String>
+    <system:String x:Key="renderOptions">Render Optionen</system:String>
     
     <!--Plugins Page-->
     <system:String x:Key="reload">Erneut laden</system:String>

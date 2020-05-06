@@ -4,17 +4,45 @@
     xmlns:local="using:MSDNSample"
     xmlns:system="clr-namespace:System;assembly=mscorlib">
 
-    <system:String x:Key="alignments">Ausrichtungen</system:String>
-    <system:String x:Key="alTopLeft">Oben, links</system:String>
-    <system:String x:Key="alTopRight">Oben, rechts</system:String>
-    <system:String x:Key="alBottomLeft">Unten, links</system:String>
-    <system:String x:Key="alBottomRight">Unten, rechts</system:String>
-    <system:String x:Key="alTopSpread">Oben, geteilt</system:String>
-    <system:String x:Key="alBottomSpread">Unten, geteilt</system:String>
+    <!-- Tab Names -->
+    <system:String x:Key="Render">Render</system:String>
+    <system:String x:Key="SaveCSV">Daten Speichern</system:String>
+    <system:String x:Key="Padding">Padding</system:String>
 
-    <system:String x:Key="fontSize">Schriftart größe</system:String>
+    <!-- Render Tab -->
+    <system:String x:Key="alignments">Ausrichtungen</system:String>
+    <system:String x:Key="alTopLeft">Oben Links</system:String>
+    <system:String x:Key="alTopRight">Oben Rechts</system:String>
+    <system:String x:Key="alBottomLeft">Unten Links</system:String>
+    <system:String x:Key="alBottomRight">Unten Rechts</system:String>
+    <system:String x:Key="alTopSpread">Oben ausgebreitet</system:String>
+    <system:String x:Key="alBottomSpread">Unten ausgebreitet</system:String>
+
+    <system:String x:Key="fontSize">Schriftgröße</system:String>
     <system:String x:Key="font">Schriftart</system:String>
 
     <system:String x:Key="reload">Neu laden</system:String>
-    <system:String x:Key="noteTextPath">Standort: Plugins/Assets/NoteCounter/Templates</system:String>
+    <system:String x:Key="openFolder">Ordner öffnen</system:String>
+
+    <system:String x:Key="thousandsSeparator">Tausendtrennungen</system:String>
+    <system:String x:Key="commas">Kommas</system:String>
+    <system:String x:Key="nothing">Keine</system:String>
+    <system:String x:Key="ZeroPadding">Kein Padding</system:String>
+
+    <!-- Save Data Tab -->
+    <system:String x:Key="savePath">Speicherort</system:String>
+    <system:String x:Key="browse">Suchen</system:String>
+    <system:String x:Key="saveToFile">Bilddaten in .csv Datei speichern</system:String>
+    <system:String x:Key="formatString">CSV Linienformat</system:String>
+
+    <!-- Padding Tab -->
+    <system:String x:Key="BPMint">BPM</system:String>
+    <system:String x:Key="BPMfrac">(Dezimal Teil)</system:String>
+    <system:String x:Key="NoteCount">Noten</system:String>
+    <system:String x:Key="Polyphony">Polyphonie</system:String>
+    <system:String x:Key="NPS">NPS</system:String>
+    <system:String x:Key="Ticks">Tick</system:String>
+    <system:String x:Key="Bars">Takte</system:String>
+    <system:String x:Key="Frames">Bild</system:String>
+    <system:String x:Key="SetDefault">Standarts</system:String>
 </ResourceDictionary>
