@@ -1,0 +1,18 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MSDNSample"
+    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    
+    <!--Other settings-->
+    <system:String x:Key="firstNote">Pierwsza Nuta</system:String>
+    <system:String x:Key="lastNote">Ostatnia nuta</system:String>
+    <system:String x:Key="pianoHeight">Wysokość pianinat %</system:String>
+    <system:String x:Key="noteScreenTime">Note screen time</system:String>
+    <system:String x:Key="sameWidthNotes">Same Width Notes</system:String>
+    <system:String x:Key="save">Zapisz</system:String>
+    <system:String x:Key="loadSaved">Załaduj zapisane</system:String>
+    <system:String x:Key="setDefaults">Domyślne</system:String>
+    <system:String x:Key="blackNotesAbove">Narysuj czarne nuty powyżej (Uwaga, WOLNIEJSZE!!)</system:String>
+
+</ResourceDictionary>

@@ -1,0 +1,76 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MSDNSample"
+    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <system:String x:Key="LanguageName">Polish</system:String>
+    
+    <!--Tab Names-->
+    <system:String x:Key="generalTab">Główny</system:String>
+    <system:String x:Key="modulesTab">Modules</system:String>
+    <system:String x:Key="moduleSettingsTab">Module Settings</system:String>
+    <system:String x:Key="renderTab">Render</system:String>
+
+    <!--Auto Update-->
+    <system:String x:Key="updateDownloading">Pobieranie Aktualizacji...</system:String>
+    <system:String x:Key="updateReady">Zainstalowano Pomyślnie!</system:String>
+    <system:String x:Key="clickToRestart">Kliknij tu, by uruchomić Zenith ponownie</system:String>
+
+    <!--Main Page-->
+    <system:String x:Key="load">Załaduj MIDI</system:String>
+    <system:String x:Key="unload">Wyładuj MIDI</system:String>
+    <system:String x:Key="width">Szerokość</system:String>
+    <system:String x:Key="height">Wysokość</system:String>
+    <system:String x:Key="browse">Szukaj</system:String>
+    <system:String x:Key="fps">Ilość FPS</system:String>
+    <system:String x:Key="presets">Ustawienia wstępne</system:String>
+    <system:String x:Key="zenithRenderWarning">Uwaga: Podgląd Zenith renderuje w powyższej rozdzielczości, a następnie przeskalowuje do rozmiaru okna</system:String>
+    <system:String x:Key="superRes">SSAA</system:String>
+    <system:String x:Key="superResWarning">Zwiększenie SSAA może znacznie zwiększyć gładkość pikseli, ale wymaga znacznie większej wydajności</system:String>
+    <system:String x:Key="language">Język</system:String>
+    <system:String x:Key="renderResolution">Rozdzielczość renderowania</system:String>
+    <system:String x:Key="previewOptions">Ustawienia podglądu</system:String>
+    <system:String x:Key="renderOptions">Ustawienia Renderowania</system:String>
+    
+    <!--Plugins Page-->
+    <system:String x:Key="reload">Załaduj ponownie</system:String>
+    <system:String x:Key="startPreview">Uruchom podgląd</system:String>
+    <system:String x:Key="stop">Stop</system:String>
+
+    <!--Preview Page-->
+    <system:String x:Key="vsync">V-Sync Włączony</system:String>
+    <system:String x:Key="tempo">Tempo Multiplier</system:String>
+    <system:String x:Key="pauseHint">Suwak prawym przyciskiem myszy lub naciśnij spację, aby przełączyć pauzę</system:String>
+    <system:String x:Key="paused">Podgląd zatrzymany</system:String>
+
+    <!--Render Page-->
+    <system:String x:Key="savePath">Zapisz w:</system:String>
+    <system:String x:Key="includeAudio">Dołącz audio</system:String>
+    <system:String x:Key="renderMask">Renderuj maskę przezroczystości</system:String>
+    <system:String x:Key="bitrate">Bitrate</system:String>
+    <system:String x:Key="crfHint">FFMPEG crf: 0 = lossless, 51 = Gorsza jakość </system:String>
+    <system:String x:Key="delatStart">Delay start (seconds)</system:String>
+    <system:String x:Key="ffmpegDebug">ffmpeg debug</system:String>
+    <system:String x:Key="startRender">Zacznij renderowanie</system:String>
+    <system:String x:Key="ifUploading">Jeśli przesyłasz to video, proszę napisz w opisie filmu, że użyłeś edytora </system:String>
+    <system:String x:Key="Custom">Customize FFmpeg Options (for experts, at your own risk)</system:String>
+    
+    <!--NEW 1.5-->
+    <system:String x:Key="realtimePlayback">Playback na żywo</system:String>
+    <system:String x:Key="disableKDMAPI">Wyłącz KDMAPI</system:String>
+    <system:String x:Key="enableKDMAPI">Włącz KDMAPI</system:String>
+    <system:String x:Key="noteSize">Długość nut</system:String>
+    <system:String x:Key="tickBased">Na podstawie Tick</system:String>
+    <system:String x:Key="timeBased">Czas użyty</system:String>
+    <system:String x:Key="ignoreColorEvents">Ignore Color Events</system:String>
+    <system:String x:Key="useBackgroundImage">Użyj tła</system:String>
+
+    <!--NEW 1.6-->
+    <system:String x:Key="pauseHintNew">Naciśnij spację, aby przełączyć pauzę, naciśnij enter w oknie podglądu, aby przejść do pełnego ekranun</system:String>
+
+    <!--Palette picker-->
+    <system:String x:Key="palettes_reload">Reload</system:String>
+    <system:String x:Key="palettes_randomise">Randomise color order</system:String>
+    <system:String x:Key="palettes_openFolder">Otwórz folder palet</system:String>
+</ResourceDictionary>
