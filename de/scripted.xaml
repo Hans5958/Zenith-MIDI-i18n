@@ -19,7 +19,7 @@
     <!--Other settings-->
     <system:String x:Key="firstNote">Erste Note</system:String>
     <system:String x:Key="lastNote">Letzte Note</system:String>
-    <system:String x:Key="noteScreenTime">Noten Bildschirm Anzeige</system:String>
+    <system:String x:Key="noteScreenTime">Notengeschwindigkeit</system:String>
 
     <system:String x:Key="profile">Profil</system:String>
     <system:String x:Key="save">Speichern</system:String>

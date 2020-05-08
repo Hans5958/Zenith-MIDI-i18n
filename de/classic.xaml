@@ -13,7 +13,7 @@
     <system:String x:Key="firstNote">Erste Taste</system:String>
     <system:String x:Key="lastNote">Letzte Taste</system:String>
     <system:String x:Key="pianoHeight">Klavierhöhe %</system:String>
-    <system:String x:Key="noteScreenTime">Noten Geschwindigkeit</system:String>
+    <system:String x:Key="noteScreenTime">Notengeschwindigkeit</system:String>
     <system:String x:Key="sameWidthNotes">Gleich breite Noten</system:String>
     <system:String x:Key="save">Spreichern</system:String>
     <system:String x:Key="loadSaved">Gespeichertes laden</system:String>

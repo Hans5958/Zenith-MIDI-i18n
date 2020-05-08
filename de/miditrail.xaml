@@ -28,7 +28,7 @@
     <system:String x:Key="tiltKeys">Gekippte Tasten</system:String>
     <system:String x:Key="3dNotes">3D Noten (LANGSAMER!)</system:String>
     <system:String x:Key="lightShade">Licht Schattierung</system:String>
-    <system:String x:Key="noteSpeed">Noten Geschwindigkeit</system:String>
+    <system:String x:Key="noteSpeed">Notengeschwindigkeit</system:String>
     <system:String x:Key="velocityStrength">Stärke der Notenlautstärke</system:String>
     <system:String x:Key="keyboardClip">Keyboard Notenklammern</system:String>
     <system:String x:Key="sameWidthNotes">Gleich breite Noten</system:String>
