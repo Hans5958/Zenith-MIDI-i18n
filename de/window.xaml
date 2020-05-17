@@ -52,6 +52,7 @@
     <system:String x:Key="renderMask">Transparente Render Maske</system:String>
     <system:String x:Key="bitrate">Bitrate</system:String>
     <system:String x:Key="crfHint">FFMPEG crf: 0 = Verlustfrei, 51 = Schlechteste mögliche Qualität</system:String>
+    <system:String x:Key="Custom">Beliebige FFMPEG Optionen (für Experten, auf eigene Gefahr!)</system:String>
     <system:String x:Key="delatStart">Verzögerter Beginn (Sekunden)</system:String>
     <system:String x:Key="ffmpegDebug">ffmpeg Debug</system:String>
     <system:String x:Key="startRender">Rendern</system:String>
@@ -72,4 +73,8 @@
 
     <!--NEW 1.6-->
     <system:String x:Key="pauseHintNew">Drücke die Leertaste, um zu pausieren; drücke Enter auf dem Vorschaufenster, um auf Vollbild zu wechseln.</system:String>
+
+    <system:String x:Key="palettes_reload">Neuladen</system:String>
+    <system:String x:Key="palettes_randomise">Zufällige Farbreihenfolge</system:String>
+    <system:String x:Key="palettes_openFolder">Palettenorder öffnen</system:String>
 </ResourceDictionary>

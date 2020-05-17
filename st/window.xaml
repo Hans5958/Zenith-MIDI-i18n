@@ -1,0 +1,80 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MSDNSample"
+    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <system:String x:Key="LanguageName">Stoastairisch</system:String>
+    
+    <!--Tab Names-->
+    <system:String x:Key="generalTab">Genneröhs</system:String>
+    <system:String x:Key="modulesTab">Module</system:String>
+    <system:String x:Key="moduleSettingsTab">Modulaistöüllungan</system:String>
+    <system:String x:Key="renderTab">Render</system:String>
+
+    <!--Auto Update-->
+    <system:String x:Key="updateDownloading">Update wiad owaglond...</system:String>
+    <system:String x:Key="updateReady">Update installiat!</system:String>
+    <system:String x:Key="clickToRestart">Do klickn, um Zenith naig z starten</system:String>
+
+    <!--Main Page-->
+    <system:String x:Key="load">Lonan</system:String>
+    <system:String x:Key="unload">Entlonan</system:String>
+    <system:String x:Key="width">Breadn</system:String>
+    <system:String x:Key="height">Hechn</system:String>
+    <system:String x:Key="browse">Suachn</system:String>
+    <system:String x:Key="fps">FPS</system:String>
+    <system:String x:Key="presets">Voaeistöllungan</system:String>
+    <system:String x:Key="zenithRenderWarning">Woanung: Zenith wiad in a hechare Auflösung greindad, dåunn auf di Feinstagreß gschrumpft</system:String>
+    <system:String x:Key="superRes">SSAA</system:String>
+    <system:String x:Key="superResWarning">SSAA eahechn kåu di Glettn zwischn Pixln drastisch eahechn, braucht owa a mea Laistung.</system:String>
+    <system:String x:Key="language">Sproch</system:String>
+    <system:String x:Key="renderResolution">Render Auflösung</system:String>
+    <system:String x:Key="previewOptions">Voaschau Opziåunan</system:String>
+    <system:String x:Key="renderOptions">Render Opziåunan</system:String>
+    
+    <!--Plugins Page-->
+    <system:String x:Key="reload">Naig lonan</system:String>
+    <system:String x:Key="pluginWarning">ACHTUNG: Vaweind Plugins nua va vatraunswüadigi Quöhn. Es is nämli meiglich, an Viarus in an Plugin z vasteickn</system:String>
+    <system:String x:Key="startPreview">Voaschau stahtn</system:String>
+    <system:String x:Key="stop">Voaschau stoppm</system:String>
+
+    <!--Preview Page-->
+    <system:String x:Key="vsync">V-Sync Aktivian</system:String>
+    <system:String x:Key="tempo">Tempo Multiplikatoa</system:String>
+    <system:String x:Key="pauseHint">Rechts Klick am schiawa oda druck di Leatastn um die Voaschau z pausian.</system:String>
+    <system:String x:Key="paused">Voaschau pausian</system:String>
+    <system:String x:Key="forceRender">Naigs Rendan auf jeds Büd eazwingan</system:String>
+
+    <!--Render Page-->
+    <system:String x:Key="savePath">Spaichapfod</system:String>
+    <system:String x:Key="includeAudio">Audio aischliaßn</system:String>
+    <system:String x:Key="renderMask">Transpareinti Renda Maskn</system:String>
+    <system:String x:Key="bitrate">Bitratn</system:String>
+    <system:String x:Key="crfHint">FFMPEG crf: 0 = Valustfrai, 51 = Schlechtesti meiglichi Qualitet</system:String>
+    <system:String x:Key="Custom">Belibigi FFMPEG Optiounan (fia Expertn, auf aigeni gfoah)</system:String>
+    <system:String x:Key="delatStart">Vazögata Beginn (Sekundn)</system:String>
+    <system:String x:Key="ffmpegDebug">ffmpeg Debug</system:String>
+    <system:String x:Key="startRender">Rendan</system:String>
+    <system:String x:Key="ifUploading">Fois du des Online hochlonan wühst, bittschei eawähn deis Programm</system:String>
+    
+    <!--NEW 1.5-->
+    <system:String x:Key="realtimePlayback">Echtzait Playback</system:String>
+    <system:String x:Key="useOmniMidi">OmniMIDI aktiviaen (Greßeri RAM auslostung)</system:String>
+    <system:String x:Key="muteAudio">Audio stummschoitn</system:String>
+    <system:String x:Key="disableKDMAPI">KDMAPI deaktivian</system:String>
+    <system:String x:Key="enableKDMAPI">KDMAPI aktivian</system:String>
+    <system:String x:Key="settingsTab">Eistöüllungan</system:String>
+    <system:String x:Key="noteSize">Notngreß</system:String>
+    <system:String x:Key="tickBased">Tick basiat</system:String>
+    <system:String x:Key="timeBased">Zeit basiat</system:String>
+    <system:String x:Key="ignoreColorEvents">Foaberaignis ignorian</system:String>
+    <system:String x:Key="useBackgroundImage">Hintagrund festleing</system:String>
+
+    <!--NEW 1.6-->
+    <system:String x:Key="pauseHintNew">Druck die Leatastn, um z pausian; druck Entea aufm Vorschaufeinsta, um auf Vuibüd z wecksln.</system:String>
+
+    <system:String x:Key="palettes_reload">Nailonan</system:String>
+    <system:String x:Key="palettes_randomise">Zuafölligi Foabreinfuige</system:String>
+    <system:String x:Key="palettes_openFolder">Palettnoadna öffnan</system:String>
+</ResourceDictionary>

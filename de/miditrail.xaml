@@ -41,6 +41,7 @@
     <!--<system:String x:Key="speedWarning">WARNING: This plug-in can use much more ram and CPU due to the higher note time on screen. The more notes are visible, the slower the render!</system:String>-->
     <system:String x:Key="speedWarning">ACHTUNG: Dieses Plug-In kann viel mehr RAM und CPU benutzen, falls die Note länger im Bild bleibt. Die weiteren Noten sind sichtbar, die das Rendern langsamer machen.!</system:String>
 
+    <system:String x:Key="verticalNotes">Vertikale Noten</system:String>
     <system:String x:Key="cameraPreset">Voreinstellungen:</system:String>
     <system:String x:Key="farPreset">Fern</system:String>
     <system:String x:Key="mediumPreset">Mittel</system:String>

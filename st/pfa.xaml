@@ -1,0 +1,30 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MSDNSample"
+    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <!--Palette picker-->
+    <system:String x:Key="palettes_reload">Naig lonan</system:String>
+    <system:String x:Key="palettes_imageNote">Is Büdl muaß a 16 (oda 32 für Staigarungan) Pixl broadi png sai, und a beliebigi Greß. Transpareinz wiad untastützt</system:String>
+    <system:String x:Key="palettes_randomise">Zuafölligi Foabrainfuige</system:String>
+
+    <!--Other settings-->
+    <system:String x:Key="firstNote">Erschti Tastn</system:String>
+    <system:String x:Key="lastNote">Leitzti Tastn</system:String>
+    <system:String x:Key="pianoHeight">Klaviahechn %</system:String>
+    <system:String x:Key="noteScreenTime">Noutngschwindichkait</system:String>
+    <system:String x:Key="sameWidthNotes">Glaich großi Noutn</system:String>
+    <system:String x:Key="save">Spaichan</system:String>
+    <system:String x:Key="loadSaved">Lonan</system:String>
+    <system:String x:Key="setDefaults">Standahts</system:String>
+
+    <system:String x:Key="middleCSquare">Mittlas C Quadrat</system:String>
+    <system:String x:Key="blackNotesAbove">Schwoazi Noutn zaichnan (Achtung: LÅUNGSÅUMA!!)</system:String>
+    <system:String x:Key="topColor">Owasti Foab</system:String>
+    <system:String x:Key="colorRed">Roht</system:String>
+    <system:String x:Key="colorGreen">Greah</system:String>
+    <system:String x:Key="colorBlue">Blau</system:String>
+
+    <system:String x:Key="borderWidth">Råundbreadn</system:String> <!--NEW-->
+</ResourceDictionary>

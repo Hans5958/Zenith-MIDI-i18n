@@ -1,0 +1,74 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MSDNSample"
+    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <!--Palette picker-->
+    <system:String x:Key="palettes_reload">Naig lonan</system:String>
+    <system:String x:Key="palettes_imageNote">Is Büdl muaß a 16 (oder 32 für Steigerungen) Pixl broati png sai, und a beliebigi Greß. Transparenz wiad untastützt</system:String>
+    <system:String x:Key="palettes_randomise">Zuafölligi Foabrainfuige</system:String>
+
+    <!--Shared-->
+    <system:String x:Key="delete">Leischn</system:String>
+    <system:String x:Key="saveNew">Naigs Spaichan</system:String>
+    <system:String x:Key="loadDefault">Standahts</system:String>
+
+    <!--Tab Names-->
+    <system:String x:Key="visualsTab">Visuöhs</system:String>
+    <system:String x:Key="cameraTab">Kamara</system:String>
+    <system:String x:Key="auraTab">Aura</system:String>
+
+
+    <!--Visuals-->
+    <system:String x:Key="firstNote">Erschti Tastn</system:String>
+    <system:String x:Key="lastNote">Leitzti Tastn</system:String>
+    <system:String x:Key="keyDownSpeed">Gschwindichkait bam Tastndruck</system:String>
+    <system:String x:Key="keyUpSpeed">Gschwindichkeit beim Louslossn va da Tastn</system:String>
+    <system:String x:Key="tiltKeys">Gkippti Tastn</system:String>
+    <system:String x:Key="3dNotes">3D Noutn (LÅUNGSÅUMA!)</system:String>
+    <system:String x:Key="lightShade">Liacht Schottiarung</system:String>
+    <system:String x:Key="noteSpeed">Noutngschwindichkait</system:String>
+    <system:String x:Key="velocityStrength">Stäakn va da Noutnlautstäakn</system:String>
+    <system:String x:Key="keyboardClip">Keyboard Noutnklåumman</system:String>
+    <system:String x:Key="sameWidthNotes">Glaich broadi Noutn</system:String>
+    <system:String x:Key="onNoteHit">Auf Noutn Åuschlog:</system:String>
+    <system:String x:Key="changeSize">Greßn äindan</system:String>
+    <system:String x:Key="changeTint">Foabton äindan</system:String>
+    <system:String x:Key="showKeyboard">Keyboard åuzoang</system:String>
+
+    <!--Camera-->
+    <!--<system:String x:Key="speedWarning">WARNING: This plug-in can use much more ram and CPU due to the higher note time on screen. The more notes are visible, the slower the render!</system:String>-->
+    <system:String x:Key="speedWarning">ACHTUNG: Deis Plug-In kåu vüh mea RAM und CPU vabrauchn, fois die Noutn läinga im Büd blaib. Die waitaran Noutn san sichtboa, dei is Rendan låungsåuma mochn!</system:String>
+
+    <system:String x:Key="verticalNotes">Veatikali Noutn</system:String>
+    <system:String x:Key="cameraPreset">Voreistöüllungan:</system:String>
+    <system:String x:Key="farPreset">Fean</system:String>
+    <system:String x:Key="mediumPreset">Mittl</system:String>
+    <system:String x:Key="closerPreset">Seah glohd</system:String>
+    <system:String x:Key="closePreset">Glohd</system:String>
+
+    <system:String x:Key="FOV">FOV</system:String>
+    <system:String x:Key="viewAngle">Betrochtungswinkl</system:String>
+    <system:String x:Key="renderDistF">Noutn renda Dist. Voawäats</system:String>
+    <system:String x:Key="renderDistB">Noutn renda Dist. Rückwäats</system:String>
+    <system:String x:Key="camOffsets">Kamara Vaseitzungan</system:String>
+    <system:String x:Key="horizontal">Horizontal</system:String>
+    <system:String x:Key="vertical">Vertikal</system:String>
+
+    <system:String x:Key="viewTilt">Kamara Naigung</system:String>
+    <system:String x:Key="viewTurn">Kamara Weindung</system:String>
+    <system:String x:Key="offsetX">X</system:String>
+    <system:String x:Key="offsetY">Y</system:String>
+    <system:String x:Key="offsetZ">Z</system:String>
+    <system:String x:Key="topPreset">Oum</system:String>
+    <system:String x:Key="perspectivePreset">Peaspektiv</system:String> 
+
+    <!--Aura-->
+    <!--<system:String x:Key="imageHint">Image needs to be square png and only alpha is taken into account</system:String>-->
+    <system:String x:Key="imageHint">Is Büdl suit a Quadratischi png und a im Konto gnoummani Alpha sai</system:String>
+    <system:String x:Key="auraEnabled">Noutn Aura Aktiviat</system:String>
+    <system:String x:Key="reload">Naig lonan</system:String>
+    <system:String x:Key="auraStrength">Stäakn:</system:String>
+    <system:String x:Key="auraLocation">Is Büdl is entdeckt woan in: Plugins\Assets\MIDITrail\Aura</system:String>
+</ResourceDictionary>
