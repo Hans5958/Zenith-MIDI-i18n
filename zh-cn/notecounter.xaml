@@ -4,6 +4,12 @@
     xmlns:local="using:MSDNSample"
     xmlns:system="clr-namespace:System;assembly=mscorlib">
 
+    <!-- Tab Names -->
+    <system:String x:Key="Render">一般设置</system:String>
+    <system:String x:Key="SaveCSV">导出设置</system:String>
+    <system:String x:Key="Padding">填充</system:String>
+
+    <!-- Render Tab -->
     <system:String x:Key="alignments">位置</system:String>
     <system:String x:Key="alTopLeft">左上角</system:String>
     <system:String x:Key="alTopRight">右上角</system:String>
@@ -17,9 +23,27 @@
 
     <system:String x:Key="reload">重新加载</system:String>
     <system:String x:Key="openFolder">打开文件夹</system:String>
+    <system:String x:Key="saveNew">添加</system:String>
 
+    <system:String x:Key="thousandsSeparator">千位分隔符</system:String>
+    <system:String x:Key="commas">逗点</system:String>
+    <system:String x:Key="nothing">无</system:String>
+    <system:String x:Key="ZeroPadding">零填充</system:String>
+
+    <!-- Save Data Tab -->
     <system:String x:Key="savePath">保存位置</system:String>
     <system:String x:Key="browse">打开</system:String>
     <system:String x:Key="saveToFile">保存帧文件到CSV文件</system:String>
     <system:String x:Key="formatString">CSV格式</system:String>
+
+    <!-- Padding Tab -->
+    <system:String x:Key="BPMint">BPM</system:String>
+    <system:String x:Key="BPMfrac">(Decimal Part)</system:String>
+    <system:String x:Key="NoteCount">Notes</system:String>
+    <system:String x:Key="Polyphony">Polyphony</system:String>
+    <system:String x:Key="NPS">NPS</system:String>
+    <system:String x:Key="Ticks">Tick</system:String>
+    <system:String x:Key="Bars">Bar</system:String>
+    <system:String x:Key="Frames">Frame</system:String>
+    <system:String x:Key="SetDefault">Defaults</system:String>
 </ResourceDictionary>

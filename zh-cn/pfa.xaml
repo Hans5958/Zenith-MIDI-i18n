@@ -8,7 +8,7 @@
     <system:String x:Key="firstNote">第一个音符</system:String>
     <system:String x:Key="lastNote">最后一个音符</system:String>
     <system:String x:Key="pianoHeight">钢琴高度</system:String>
-    <system:String x:Key="noteScreenTime">音符速度(数值越大越慢)</system:String>
+    <system:String x:Key="noteScreenTime">音符速度</system:String>
     <system:String x:Key="sameWidthNotes">统一音符宽度</system:String>
     <system:String x:Key="save">保存</system:String>
     <system:String x:Key="loadSaved">加载配置</system:String>

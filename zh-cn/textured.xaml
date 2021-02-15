@@ -16,10 +16,9 @@
     <system:String x:Key="reloadList">重新加载列表</system:String>
     <system:String x:Key="reloadPack">重新加载资源包</system:String>
 
-
     <!--Other settings-->
     <system:String x:Key="firstNote">第一个音符</system:String>
     <system:String x:Key="lastNote">最后一个音符</system:String>
-    <system:String x:Key="noteScreenTime">音符速度(数值越大越慢)</system:String>
+    <system:String x:Key="noteScreenTime">音符速度</system:String>
     <system:String x:Key="blackNotesAbove">显示黑色的音符轮廓(渲染得更慢)</system:String>
 </ResourceDictionary>

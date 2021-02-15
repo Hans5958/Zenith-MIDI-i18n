@@ -6,26 +6,26 @@
 
     <!--Shared-->
     <system:String x:Key="delete">删除</system:String>
-    <system:String x:Key="saveNew">保存新的配置</system:String>
+    <system:String x:Key="saveNew">保存</system:String>
     <system:String x:Key="loadDefault">默认</system:String>
 
     <!--Tab Names-->
-    <system:String x:Key="visualsTab">视觉效果</system:String>
-    <system:String x:Key="cameraTab">相机位置</system:String>
+    <system:String x:Key="visualsTab">一般设置</system:String>
+    <system:String x:Key="cameraTab">视角</system:String>
     <system:String x:Key="auraTab">光晕</system:String>
 
 
     <!--Visuals-->
     <system:String x:Key="firstNote">第一个音符</system:String>
     <system:String x:Key="lastNote">最后一个音符</system:String>
-    <system:String x:Key="keyDownSpeed">钢琴键按下速度</system:String>
-    <system:String x:Key="keyUpSpeed">钢琴键上弹速度</system:String>
-    <system:String x:Key="tiltKeys">倾斜钢琴键(效果未知)</system:String>
-    <system:String x:Key="3dNotes">立体音符(渲染更慢)</system:String>
+    <system:String x:Key="keyDownSpeed">琴键按下速度</system:String>
+    <system:String x:Key="keyUpSpeed">琴键上弹速度</system:String>
+    <system:String x:Key="tiltKeys">倾斜琴键</system:String>
+    <system:String x:Key="3dNotes">立体音符(渲染得更慢)</system:String>
     <system:String x:Key="lightShade">更浅的颜色</system:String>
     <system:String x:Key="noteSpeed">音符速度</system:String>
-    <system:String x:Key="velocityStrength">音符速度的强度(效果未知)</system:String>
-    <system:String x:Key="keyboardClip">不在钢琴键后方显示音符</system:String>
+    <system:String x:Key="velocityStrength">音符速度的强度</system:String>
+    <system:String x:Key="keyboardClip">不在琴键后方显示音符</system:String>
     <system:String x:Key="sameWidthNotes">统一音符宽度</system:String>
     <system:String x:Key="onNoteHit">当一个音符按下时:</system:String>
     <system:String x:Key="changeSize">改变音符大小</system:String>
@@ -60,7 +60,7 @@
     <system:String x:Key="perspectivePreset">视角</system:String> 
 
     <!--Aura-->
-    <system:String x:Key="imageHint">图像只能是方形png文件，并且只包含透明度</system:String>
+    <system:String x:Key="imageHint">图像只能是方形png文件</system:String>
     <system:String x:Key="auraEnabled">开启光晕</system:String>
     <system:String x:Key="reload">重新加载</system:String>
     <system:String x:Key="auraStrength">渐变强度</system:String>
